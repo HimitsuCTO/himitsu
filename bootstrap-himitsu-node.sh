@@ -31,7 +31,7 @@ git clone https://github.com/HimitsuCTO/himitsu
 #cd into the repo
 cd himitsu
 
-make install
+ignite chain build
 
 #himitsud init [moniker] 
 himitsud init myhimitsunode
