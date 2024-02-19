@@ -20,9 +20,9 @@ export PATH=$PATH:~/go/bin
 
 source ~/.bashrc
 go env
-#should output golang 1.19
+#should output golang 1.21
 
-curl https://get.ignite.com/cli@v0.26.1 | bash
+curl https://get.ignite.com/cli! | bash
 
 sudo mv ignite /usr/local/bin
 ignite version
