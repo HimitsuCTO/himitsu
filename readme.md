@@ -1,5 +1,5 @@
 # Himitsu Testnet is Live
-**himitsu** is a decentrailized blockchain network, built to help support privacy-preserving blockchain applications, it was built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli) Version v0.26.1
+**himitsu** is a decentrailized blockchain network, built to help support privacy-preserving blockchain applications, it was built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli) Version v28.2
 
 ### Bootstrap a Himitsu Blockchain Node  
 The following steps with build the chain binary, initialize a node, and sync your node to the Himitsu Blockchain Testnet. 
@@ -20,7 +20,7 @@ chmod +x bootstrap-node.sh
 
 ### Ignite Install (Optional)
 ```
-curl https://get.ignite.com/cli@v0.26.1 | bash
+curl https://get.ignite.com/cli! | bash
 ```
 ### Install The Himitsu Blockchain Binary
 To install the latest version
