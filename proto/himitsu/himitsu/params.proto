@@ -1,0 +1,15 @@
+syntax = "proto3";
+package himitsu.himitsu;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "himitsu/x/himitsu/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "himitsu/x/himitsu/Params";
+  option (gogoproto.equal) = true;
+
+  
+}

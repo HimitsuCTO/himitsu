@@ -1,0 +1,40 @@
+version: 1
+accounts:
+  - name: frank
+    coins:
+      - 1000000000000000000uhimitsu
+client:
+  openapi:
+    path: docs/static/openapi.yml
+faucet:
+  name: frank
+  coins:
+    - 1000000000000uhimitsu
+validators:
+  - name: frank
+    bonded: 1000000000000uhimitsu
+    config:
+      consensus:
+        timeout_commit: '20s'
+
+genesis:
+  app_state:
+    staking:
+      params:
+        bond_denom: "uhimitsu"
+    gov:
+      deposit_params:
+        min_deposit:
+          - amount: "1000000000000"
+            denom: "uhimitsu"
+    crisis:
+      constant_fee:
+        denom: "uhimitsu"
+    mint:
+      minter:
+        inflation: "0.000000000000000"
+      params:
+        inflation_max: "0.000000000000000"
+        inflation_min: "0.000000000000000"
+        inflation_rate_change: "0.000000000000000"
+        mint_denom: "uhimitsu"
